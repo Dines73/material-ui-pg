@@ -23,7 +23,7 @@ const StartPage = () => {
     <>
       <CssBaseline className={classes.baseLine} />
       <AppBar position="relative">
-        <Toolbar>
+        <Toolbar className={classes.toolbar}>
           <PhotoCamera className={classes.icon} />
           <Typography variant="h6">Top Shop Minka & Kemo</Typography>
         </Toolbar>

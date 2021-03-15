@@ -29,8 +29,8 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper,
     padding: "50px 0"
   },
-  baseLine: {
-    backgroundColor: theme.palette.background.paper
+  toolbar: {
+    backgroundColor: "#ff4081"
   }
 }))
 
