@@ -12,7 +12,8 @@ import {
   Toolbar,
   Container
 } from "@material-ui/core"
-import { PhotoCamera } from "@material-ui/icons"
+// import { PhotoCamera } from "@material-ui/icons"
+import ColorLensIcon from "@material-ui/icons/ColorLens"
 import useStyles from "./styles"
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -24,8 +25,9 @@ const StartPage = () => {
       <CssBaseline className={classes.baseLine} />
       <AppBar position="relative">
         <Toolbar className={classes.toolbar}>
-          <PhotoCamera className={classes.icon} />
-          <Typography variant="h6">Top Shop Minka & Kemo</Typography>
+          {/* <PhotoCamera className={classes.icon} /> */}
+          <ColorLensIcon className={classes.icon} />
+          <Typography variant="h6">Kunstgalerie Moke&Minci</Typography>
         </Toolbar>
       </AppBar>
       <main>
